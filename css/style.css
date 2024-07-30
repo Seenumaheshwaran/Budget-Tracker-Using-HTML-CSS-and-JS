@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+    background-color: #0000FF;
+    color: #fff;
+    padding: 10px;
+    margin: -20px -20px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+#transactionForm{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 300px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 300px;
+}
+.group2{
+    display: flex;
+    flex-direction: column;
+}
+
+.group3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form select, form input, form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0000FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    margin-left:20px ;
+}
+
+button:hover {
+    background-color: #000099;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0000FF;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button.delete-btn {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.delete-btn:hover {
+    background-color: #cc0000;
+}
